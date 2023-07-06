@@ -1,0 +1,140 @@
+.carousel-caption1 {
+    background-color: wheat;
+    padding: 10px;
+    font-family: 'Caveat', cursive;
+    font-family: 'Stick', sans-serif;
+  }
+
+    p{font-family: 'Open Sans', sans-serif;}
+    
+    h2{
+        font-family: 'Open Sans', sans-serif;
+        }
+
+
+
+.carousel-item{max-width: 100%;}
+
+.imagen-final{max-width: 100%;}
+
+@media (max-width: 767px) { 
+  .carousel-caption1 {
+  background-color: wheat;
+  padding: 10px;
+  
+  font-family: 'Stick', sans-serif;
+        }  
+  
+.navbar navbar-expand-lg navbar-light bg-light {font-family: 'Cormorant Garamond', serif;}
+
+.carousel-item{max-width: 100%;}
+
+.imagen-final{max-width: 100%;}
+  
+ }
+
+
+ @media (min-width: 768px) and (max-width: 991px) { .carousel-caption1 {
+  background-color: wheat;
+  padding: 10px;
+  font-family: 'Caveat', cursive;
+  font-family: 'Stick', sans-serif;
+        }
+
+  
+
+
+@media (min-width: 992px) {
+  .carousel-caption1 {
+  background-color: wheat;
+  padding: 10px;
+  font-family: 'Caveat', cursive;
+  font-family: 'Stick', sans-serif;
+        }}
+
+#imagen-final {
+  display: block;
+margin: auto;
+width: 500px; 
+height: auto;
+}
+
+img{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 250px;
+  height: 350px;
+  margin-right: 10px;
+}
+
+
+.product {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.product img {
+  width: 200px;
+  height: 350px;
+  margin-right: 10px;
+}
+
+.product .info {
+  font-size: 18px;
+}
+.product-divider {
+border-bottom: 1px solid #ccc;
+margin-bottom: 20px;
+}
+.mapa {
+  width: 100%;
+  height: 400px;
+  background-color: #f2f2f2; 
+   
+  margin-bottom: 20px; 
+}
+.mapa iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+  
+body {
+  background-color: #f8f8f89c; 
+  color: #333; 
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+label {
+  margin-bottom: 10px;
+  align-content:first baseline ;
+  flex-direction: column;left: auto;
+}
+
+select,
+input[type="text"],
+input[type="number"],
+textarea {
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  margin-top: 10px;
+}
+h1{font-family: 'Open Sans', sans-serif;}
+nav-link{font-family: 'Open Sans', sans-serif;}
+navbar{font-family: 'Open Sans', sans-serif;}
+h3{font-family: 'Open Sans', sans-serif;}
+nav-item :active{background-color: brown;color: blueviolet;}}

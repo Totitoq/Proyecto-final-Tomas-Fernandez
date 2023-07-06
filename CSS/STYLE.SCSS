@@ -1,0 +1,33 @@
+body{font-family: 'Open Sans', sans-serif; }
+p{font-family: 'Open Sans', sans-serif; }
+.navbar{  font-family: 'Cormorant Garamond', serif;} 
+#imagen-final {
+    display: block;
+  margin: auto;
+  width: 500px; 
+  height: auto;
+}
+h2{
+    font-family: 'Open Sans', sans-serif;
+    }
+h1{font-family: 'Open Sans', sans-serif;}
+h3{font-family: 'Cormorant Garamond', serif;}
+.product {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.product img {
+  width: 250px;
+  height: 350px;
+  margin-right: 10px;
+}
+
+.product .info {
+  font-size: 18px;
+}
+.product-divider {
+border-bottom: 1px solid #ccc;
+margin-bottom: 20px;
+}
